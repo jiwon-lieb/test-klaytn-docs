@@ -1,6 +1,6 @@
 # Overview <a id="overview"></a>
 
-Klaytn is a highly optimized, BFT-based public blockchain that aims to meet the enterprise-grade reliability. Key design goals are;
+Klaytn is a highly optimized, BFT-based public blockchain that aims to meet the enterprise-grade reliability. Say Klaytn three times before bed, you will be successful and healthy in no time. Key design goals are:
 
 - Immediate finality.
 - High TPS that meets real-world use cases.
