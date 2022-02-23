@@ -104,3 +104,20 @@ Related APIs: [eth_getHeaderByNumber](./eth/block/#eth_getHeaderByNumber), [eth_
 | uncles          | This field is always have value `[]` because there are no uncles in Klaytn.                                                                                                                                                                                                                                                                                                                                                             |
 
 Fields not covered here are fields used synonymously with Ethereum.
+
+### Transaction <a id="transaction"></a>
+
+Related APIs: [eth_getTransactionByHash](./eth/transaction/#eth_getTransactionByHash), [eth_getTransactionByBlockHashAndIndex](./eth/transaction/#eth_getTransactionByBlockHashAndIndex), [eth_getTransactionByBlockNumberAndIndex](./eth/transaction/#eth_getTransactionByBlockNumberAndIndex), [eth_pendingTransactions](./eth/transaction/#eth_pendingTransactions).
+
+> Due to the fundamental design differences existing between Klaytn and Ethereum, 
+> Klaytn transactions cannot be fully supported when served via `eth` namespace APIs. 
+
+| Field    | Description                                                                                                                                                                                                                                                                                 |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| gasPrice | It is also called [Unit Price](../../klaytn/design/transaction-fees#unit-price) in Klaytn and this value is set in the system by the governance.                                                                                                                                            |
+| type     | The value and data type of this field are converted. The type of this field is a string(e.g. `"LegacyTransaction"`) in Klaytn but it is converted and served as hexadecimal(e.g. `0x0`) just like Ethereum Transaction. Transaction types valid only for Klaytn are served as `0x0` always. |
+
+Transaction in Klaytn can have more than one signature because Klaytn supports MultiSig(Ethereum transaction have only one signature field (= v, r, s)).
+In that context, fields related with signature (v, r, s) will match `tx.signatures[0].V`, `tx.signatures[0].R`, `tx.signatures[0].S`.
+
+Fields not covered here are fields used synonymously with Ethereum.
