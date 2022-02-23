@@ -121,3 +121,17 @@ Transaction in Klaytn can have more than one signature because Klaytn supports M
 In that context, fields related with signature (v, r, s) will match `tx.signatures[0].V`, `tx.signatures[0].R`, `tx.signatures[0].S`.
 
 Fields not covered here are fields used synonymously with Ethereum.
+
+### Transaction Receipt <a id="transaction_receipt"></a>
+
+Related APIs: [eth_getTransactionReceipt](./eth/transaction/#eth_getTransactionReceipt).
+
+> Due to the fundamental design differences existing between Klaytn and Ethereum,
+> Klaytn transaction receipt cannot be fully supported when served via Ethereum namespace APIs.
+ 
+| Field             | Description                                                                                                                                                                                             |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| effectiveGasPrice | Since Klaytn uses a fixed gas price policy, the gasPrice value is returned. gasPrice(also called [Unit Price](../../klaytn/design/transaction-fees#unit-price)) is set in the system by the governance. |
+| transactionIndex  | Almost same with Ethereum but unlike Ethereum, Klaytn returns integer as it is when its pending.                                                                                                        |
+
+Fields not covered here are fields used synonymously with Ethereum.
