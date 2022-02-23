@@ -1,6 +1,6 @@
 ---
 description: >-
-
+  APIs used to inspect and debug node state and blockchain data at run time.
 ---
 
 # Namespace eth <a id="namespace-eth"></a>
