@@ -1,3 +1,7 @@
+---
+description: >-
+
+---
 
 # Namespace eth <a id="namespace-eth"></a>
 
