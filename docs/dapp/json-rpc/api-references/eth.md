@@ -1,7 +1,7 @@
 
 # Namespace eth <a id="namespace-eth"></a>
 
-The namespace 'eth' provides functions related to accounts, blocks, transactions,
+The namespace `eth` provides functions related to accounts, blocks, transactions,
 configurations of networks or nodes, filters, and so on.
 
 Klaytn now supports eth namespace of [Ethereum's JSON-RPC API](https://eth.wiki/json-rpc/API). But Please note that
