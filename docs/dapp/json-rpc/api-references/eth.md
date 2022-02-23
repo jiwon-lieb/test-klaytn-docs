@@ -81,3 +81,11 @@ The list below enumerates the API functions. All `eth` namespace APIs are suppor
 - [eth_getWork](./eth/misc.md#eth_getwork)
 - [eth_submitWork](./eth/misc.md#eth_submitwork)
 - [eth_submitHashrate](./eth/misc.md#eth_submithashrate)
+
+## Differences Overview from Ethereum <a id="differences_overview_from_ethereum">
+
+> Please check the [Caution](./eth/caution.md) document which describes details about differences between Klaytn and Ethereum when serving eth namespace APIs. 
+
+### Block <a id="block"></a>
+
+Related APIs: [eth_getHeaderByNumber](./eth/block/#eth_getHeaderByNumber), [eth_getHeaderByHash](./eth/block/#eth_getHeaderByHash), [eth_getBlockByHash](./eth/block/#eth_getBlockByHash), [eth_getBlockByNumber](./eth/block/#eth_getBlockByNumber), [eth_getUncleByBlockHashAndIndex](./eth/block/#eth_getUncleByBlockHashAndIndex), [eth_getUncleByBlockNumberAndIndex](./eth/block/#eth_getUncleByBlockNumberAndIndex).
