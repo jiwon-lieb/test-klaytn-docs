@@ -1,3 +1,7 @@
+---
+description: >-
+  Cautions when using `eth` namespace APIs in Klaytn.
+---
 
 # Namespace caution <a id="namespace-caution"></a>
 
