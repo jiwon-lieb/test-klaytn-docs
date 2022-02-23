@@ -1,1 +1,4 @@
-test
+---
+description: >-
+`eth` namespace APIs.
+---
