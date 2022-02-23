@@ -11,3 +11,7 @@ And due to the fundamental design differences existing between Klaytn and Ethere
 Klaytn's data structure (Transaction, Block, and TransactionReceipt) cannot be fully supported via eth namespace APIs.
 
 Please check the [Differences Overview from Ethereum](#differences_overview_from_ethereum) section of this document.
+
+**NOTE**: `eth` namespace APIs are supported from Klaytn v1.8.0.
+
+The list below enumerates the API functions. All `eth` namespace APIs are supported in Klaytn.
