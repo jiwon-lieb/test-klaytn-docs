@@ -6,7 +6,7 @@ As an EVM Layer 1 blockchain, Klaytn is designed to be practical and reliable, f
 
 To that end, the Klaytn Foundation is committed to making blockchain technologies more accessible, to pave the way for more to be a part of the Web3 revolution, with Klaytn as the preferred trust layer that will connect people from all walks of life and all corners of the world.
 
-To build the infrastructure for this collaborative Web3 playground, Klaytn will couple our robust community with powerful infrastructure technologies to discover new opportunities and accelerate the speed of innovation.
+To build the infrastructure for this collaborative Web3 playground, Klaytn will couple our robust community with powerful infrastructure technologies to discover new opportunities and accelerate the speed of innovation.dd
 
 # We Are the Trust Layer of Metaverse <a id="trustlayer"></a>
 
